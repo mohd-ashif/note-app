@@ -72,3 +72,13 @@ background: radial-gradient(circle, rgba(156,69,184,0.9389005602240896) 0%, rgba
     right: 15px;
     cursor: pointer;
 }
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 5%;
+  }
+  
+  .input-box {
+    width: 90%;
+  }
+}
